@@ -1,0 +1,37 @@
+img {
+  /*Escala de grises*/
+  /* filter: grayscale(50%); */
+  /* Saturación */
+  /* filter: saturate(1%); */
+  /* Difumindado de imagen */
+  /* filter: blur(100px); */
+  /* Opacidad de la imagen */
+  /* filter: opacity(20%); */
+  /* Contraste de la imagen */
+  /* filter: contrast(50%); */
+  /* Brillo de la imagen */
+  /* filter: brightness(100%); */
+  /* Invertir colores de la imagen */
+  /* filter: invert(100%); */
+  /* Sombreado de la imagen */
+  /* filter: drop-shadow(10px 10px 10px black); */
+  /* Rotación de la colores de la imagen */
+  filter: hue-rotate(200deg);
+  transition: all 300ms ease-in-out;
+}
+
+img:hover {
+  filter: hue-rotate(100deg);
+}
+
+.caja {
+  filter: hue-rotate(100deg);
+  border: 1px solid blue;
+  background-color: aqua;
+  color: blue;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
